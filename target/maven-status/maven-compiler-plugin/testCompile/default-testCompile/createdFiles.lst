@@ -1,2 +1,3 @@
 examples\auth\AuthRunner.class
+examples\booking\BookingRunner.class
 examples\ExamplesTest.class

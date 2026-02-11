@@ -49,7 +49,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2026-02-10 07:57:02 p. m.</div>
+    <div>2026-02-10 09:44:42 p. m.</div>
   </div>
 </div>
 
@@ -81,7 +81,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>829</span>
+              <span>ms:</span>&nbsp;<span>837</span>
             </div>
           </div>
           <div class="step-row">
@@ -113,7 +113,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">19:57:01.501 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">21:44:41.558 karate.env system property was: null 
 </div>   
 
   
@@ -133,13 +133,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def body_credentials =</span>
       </div>
     </div>
-    <div class="time-cell passed">30</div>
+    <div class="time-cell passed">46</div>
   </div>
 
    
   
   <div class="preformatted" data-parent="0.7">{
-  &quot;username&quot; : &quot;admin&quot;,
+  &quot;username&quot;: &quot;admin&quot;,
   &quot;password&quot;: &quot;password123&quot;
 }</div>
 
@@ -161,10 +161,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">15</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>path &#39;auth&#39;</span>
+        <span>Given</span>&nbsp;<span>path &#39;/auth&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -189,10 +189,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">16</div>
       
       <div class="step-cell passed">
-        <span>When</span>&nbsp;<span>method post</span>
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">797</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -201,29 +201,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.16">19:57:01.710 request:
-1 &gt; POST https://restful-booker.herokuapp.com/auth
-1 &gt; Host: restful-booker.herokuapp.com
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
-1 &gt; Accept-Encoding: gzip,deflate
-
-
-19:57:02.347 response time in milliseconds: 633
-1 &lt; 200
-1 &lt; Content-Length: 28
-1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Date: Wed, 11 Feb 2026 00:57:02 GMT
-1 &lt; Etag: W/&quot;1c-J3EiwfZwVQjKTKvpvazUfTni8fI&quot;
-1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
-1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=u43Y3%2FeoOJyvieHXV0KkzbSykoYnFXff8fBXu1QjHDk%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1770771422&quot;}],&quot;max_age&quot;:3600}
-1 &lt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=u43Y3%2FeoOJyvieHXV0KkzbSykoYnFXff8fBXu1QjHDk%3D&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;ts=1770771422&quot;
-1 &lt; Server: Heroku
-1 &lt; Via: 1.1 heroku-router
-1 &lt; X-Powered-By: Express
-{&quot;reason&quot;:&quot;Bad credentials&quot;}
-
-</div>   
+     
 
   
 
@@ -239,10 +217,174 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">17</div>
       
       <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request body_credentials</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">775</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.18">21:44:41.867 request:
+1 &gt; POST https://restful-booker.herokuapp.com/auth
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 45
+1 &gt; Host: restful-booker.herokuapp.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;admin&quot;,&quot;password&quot;:&quot;password123&quot;}
+
+21:44:42.416 response time in milliseconds: 547
+1 &lt; 200
+1 &lt; Content-Length: 27
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Wed, 11 Feb 2026 02:44:42 GMT
+1 &lt; Etag: W/&quot;1b-Pciq3XfwRYoR9Xb6DtOcwR/AnpU&quot;
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=m%2BgYgLCmgWvep%2BLQdX4DIGSLaQoxQ1UFkx%2BQMrewsxQ%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1770777882&quot;}],&quot;max_age&quot;:3600}
+1 &lt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=m%2BgYgLCmgWvep%2BLQdX4DIGSLaQoxQ1UFkx%2BQMrewsxQ%3D&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;ts=1770777882&quot;
+1 &lt; Server: Heroku
+1 &lt; Via: 1.1 heroku-router
+1 &lt; X-Powered-By: Express
+{&quot;token&quot;:&quot;2bac50c676596f2&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.token == &#39;#string&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response !contains { reason: &#39;Bad credentials&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
